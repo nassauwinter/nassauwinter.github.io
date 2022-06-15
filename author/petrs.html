@@ -15,12 +15,62 @@
                     <li><a href="/category/diy.html">diy</a></li>
                     <li><a href="/category/opensource.html">OpenSource</a></li>
                     <li><a href="/category/other.html">Other</a></li>
+                    <li><a href="/category/python.html">Python</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/hacktoberfest2021.html">Hacktoberfest2021</a></h1>
+                    <h1 class="entry-title"><a href="/magic-of-python-packages.html">Magic of Python packages</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2022-06-16T11:23:00+03:00">
+                Published: Thu 16 June 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/petrs.html">PetrS</a>
+        </address>
+<p>In <a href="/category/python.html">Python</a>.</p>
+<p>tags: <a href="/tag/python.html">python</a> <a href="/tag/opensource.html">opensource</a> <a href="/tag/packaging.html">packaging</a> </p>
+</footer><!-- /.post-info --><h2>Magic of Python packages</h2>
+<p>There is always some magic when you learn python and install packages with <code>pip install</code> command. But have 
+you ever wondered how python packages are born?</p>
+<p>At first, there is almost any package for your need in the PYPI repository. PYPI is a PYthon Package Index. 
+That is a default repository for python modules. When you install a module with <code>pip install</code> command, 
+it downloads the required package and its dependencies from <a href="pypi.org">pypi.org</a>. Of course that could be overwritten 
+with your private repository instance, if you have one. 🙂 While you accumulate more and more experience 
+with writing python code you may face some extra needs for python packages. You check pypi and voila! Wait...
+No. There is no package for your specific purpose. It has not been developed yet. Okay, you have an idea of how to 
+make the package. And then you did it. Nice. It's time to share your awesome code and make other developers happy
+because there is no need to develop the package again. How to start?</p>
+<p>Well, there is a great <a href="https://packaging.python.org/en/latest/tutorials/packaging-projects/">python packaging guide</a>.
+I would recommend to go through it. It will help you to through the basics of packaging process.
+The guide includes the following steps:</p>
+<ol>
+<li>Preparing your package repository folder structure for packaging;</li>
+<li>Creating configuration files for packaging and distribution (license and readme);</li>
+<li>Generating distribution archives;</li>
+<li>Downloading the archives to a python index repo;</li>
+<li>And finally, installing the newly added package.</li>
+</ol>
+<p>Yes, your friends will be able to install your package with <code>pip install &lt;your_cool_package_name&gt;</code> now. You may worry about 
+making mistakes while uploading distribution archives to PYPI. Stop it 🙂 There is a test PYPI 
+instance to master interaction with pypi repository. It is <a href="https://test.pypi.org/">here</a>.
+Don't place any valuable info there because the testing PYPI instance is periodically cleaned.</p>
+<p>Huh. It seems that now some magic smoke disappeared and you understand more clearly of how things are done in python. Enjoy!</p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/hacktoberfest2021.html" rel="bookmark"
+                           title="Permalink to Hacktoberfest2021">Hacktoberfest2021</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2021-10-14T15:25:00+03:00">
                 Published: Thu 14 October 2021
@@ -31,18 +81,10 @@
         </address>
 <p>In <a href="/category/opensource.html">OpenSource</a>.</p>
 <p>tags: <a href="/tag/github.html">github</a> <a href="/tag/opensource.html">opensource</a> <a href="/tag/hacktoberfest.html">hacktoberfest</a> </p>
-</footer><!-- /.post-info --><h2>Hacktoberfest 2021 and contributing to open source</h2>
-<p>What is Hacktoberfest? It is a month-long celebration of open source software run by DigitalOcean.
-(More official info is available here: https://hacktoberfest.digitalocean.com/)</p>
-<p>For me it's a time of a year to make our world better. I believe that almost every person using any products of the modern technology leverages open source.
-Contributing to Open Source is a modern type of charity where your donate a very valuable entity, I mean your ideas and their implementation.</p>
-<p>That's why I like the spirit of the event and I'm very grateful to Digital Ocean for the Hacktoberfest.
-Also, I visited the event's official kick-off meeting and there were a lot of information for newcomers. It aimed everyone to easily start participating in open source.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p>Hacktoberfest 2021</p>
+                <a class="readmore" href="/hacktoberfest2021.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
