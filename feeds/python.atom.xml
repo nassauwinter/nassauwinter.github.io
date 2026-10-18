@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Petr was here - Python</title><link href="https://nassauwinter.github.io/" rel="alternate"/><link href="https://nassauwinter.github.io/feeds/python.atom.xml" rel="self"/><id>https://nassauwinter.github.io/</id><updated>2022-06-16T11:23:00+02:00</updated><entry><title>Magic of Python packages</title><link href="https://nassauwinter.github.io/magic-of-python-packages.html" rel="alternate"/><published>2022-06-16T11:23:00+02:00</published><updated>2022-06-16T11:23:00+02:00</updated><author><name>PetrS</name></author><id>tag:nassauwinter.github.io,2022-06-16:/magic-of-python-packages.html</id><summary type="html">&lt;p&gt;Magic of Python packages&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Magic of Python packages&lt;/h2&gt;
+&lt;p&gt;There is always some magic when you learn python and install packages with &lt;code&gt;pip install&lt;/code&gt; command. But have 
+you ever wondered how python packages are born?&lt;/p&gt;
+&lt;p&gt;At first, there is almost any package for your need in the PYPI repository. PYPI is a PYthon Package Index. 
+That is a default repository for python modules. When you install a module with &lt;code&gt;pip install&lt;/code&gt; command, 
+it downloads the required package and its dependencies from &lt;a href="pypi.org"&gt;pypi.org&lt;/a&gt;. Of course that could be overwritten 
+with your private repository instance, if you have one. 🙂 While you accumulate more and more experience 
+with writing python code you may face some extra needs for python packages. You check pypi and voila! Wait...
+No. There is no package for your specific purpose. It has not been developed yet. Okay, you have an idea of how to 
+make the package. And then you did it. Nice. It's time to share your awesome code and make other developers happy
+because there is no need to develop the package again. How to start?&lt;/p&gt;
+&lt;p&gt;Well, there is a great &lt;a href="https://packaging.python.org/en/latest/tutorials/packaging-projects/"&gt;python packaging guide&lt;/a&gt;.
+I would recommend to go through it. It will help you to through the basics of packaging process.
+The guide includes the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Preparing your package repository folder structure for packaging;&lt;/li&gt;
+&lt;li&gt;Creating configuration files for packaging and distribution (license and readme);&lt;/li&gt;
+&lt;li&gt;Generating distribution archives;&lt;/li&gt;
+&lt;li&gt;Downloading the archives to a python index repo;&lt;/li&gt;
+&lt;li&gt;And finally, installing the newly added package.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Yes, your friends will be able to install your package with &lt;code&gt;pip install &amp;lt;your_cool_package_name&amp;gt;&lt;/code&gt; now. You may worry about 
+making mistakes while uploading distribution archives to PYPI. Stop it 🙂 There is a test PYPI 
+instance to master interaction with pypi repository. It is &lt;a href="https://test.pypi.org/"&gt;here&lt;/a&gt;.
+Don't place any valuable info there because the testing PYPI instance is periodically cleaned.&lt;/p&gt;
+&lt;p&gt;Huh. It seems that now some magic smoke disappeared and you understand more clearly of how things are done in python. Enjoy!&lt;/p&gt;</content><category term="Python"/><category term="python"/><category term="opensource"/><category term="packaging"/></entry></feed>
