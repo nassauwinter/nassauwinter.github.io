@@ -4,7 +4,7 @@
 you ever wondered how python packages are born?&lt;/p&gt;
 &lt;p&gt;At first, there is almost any package for your need in the PYPI repository. PYPI is a PYthon Package Index. 
 That is a default repository for python modules. When you install a module with &lt;code&gt;pip install&lt;/code&gt; command, 
-it downloads the required package and its dependencies from &lt;a href="pypi.org"&gt;pypi.org&lt;/a&gt;. Of course that could be overwritten 
+it downloads the required package and its dependencies from &lt;a href="https://pypi.org/"&gt;pypi.org&lt;/a&gt;. Of course that could be overwritten
 with your private repository instance, if you have one. 🙂 While you accumulate more and more experience 
 with writing python code you may face some extra needs for python packages. You check pypi and voila! Wait...
 No. There is no package for your specific purpose. It has not been developed yet. Okay, you have an idea of how to 

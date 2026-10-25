@@ -1,9 +1,8 @@
 (() => {
-    const button = document.querySelector('.theme-toggle');
-    if (!button) return;
+    const buttons = Array.from(document.querySelectorAll('.theme-option'));
+    if (!buttons.length) return;
 
     const root = document.documentElement;
-    const label = button.querySelector('.theme-label');
 
     function isDark() {
         return root.dataset.theme
@@ -11,23 +10,25 @@
             : window.matchMedia('(prefers-color-scheme: dark)').matches;
     }
 
-    function updateButton() {
+    function updateButtons() {
         const dark = isDark();
-        label.textContent = dark ? 'Light' : 'Dark';
-        button.setAttribute('aria-label', `Switch to ${dark ? 'light' : 'dark'} theme`);
-        button.setAttribute('aria-pressed', String(dark));
+        buttons.forEach(button => {
+            button.setAttribute('aria-pressed', String(button.dataset.themeChoice === (dark ? 'dark' : 'light')));
+        });
     }
 
-    button.addEventListener('click', () => {
-        const next = isDark() ? 'light' : 'dark';
-        root.dataset.theme = next;
-        try { localStorage.setItem('site-theme', next); } catch (_) {}
-        updateButton();
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            const next = button.dataset.themeChoice;
+            root.dataset.theme = next;
+            try { localStorage.setItem('site-theme', next); } catch (_) {}
+            updateButtons();
+        });
     });
 
     const preference = window.matchMedia('(prefers-color-scheme: dark)');
     preference.addEventListener?.('change', () => {
-        if (!root.dataset.theme) updateButton();
+        if (!root.dataset.theme) updateButtons();
     });
-    updateButton();
+    updateButtons();
 })();
