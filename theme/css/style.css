@@ -43,3 +43,7 @@ a:hover{color:var(--accent)}
 @media(max-width:360px){.header-inner{grid-template-columns:1fr;grid-template-areas:"brand" "controls" "nav";gap:8px;align-items:start}.header-controls{justify-self:end}}
 
 .prose>:first-child{margin-top:0}
+.article-header .post-meta a{color:inherit;text-transform:none}
+.prose .about-portrait{margin:0 0 1.35em}
+.about-portrait img{display:block}
+.about-portrait figcaption{color:var(--muted);font-size:14px;line-height:1.5;margin-top:8px;text-align:center}
