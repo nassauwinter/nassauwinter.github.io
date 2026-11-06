@@ -1,0 +1,21 @@
+# Petr was here
+
+> Personal blog by Petr Sharapenko (Пётр Шарапенко), also known as Nassau Winter. Notes on software engineering, Python, open source, and making things.
+
+## About
+- [About me](https://nassauwinter.github.io/pages/about-petrs.html)
+- [Обо мне](https://nassauwinter.github.io/ru/pages/about-petrs.html)
+
+## Articles in English
+- [Open Source as an Opportunity for QA Engineers](https://nassauwinter.github.io/open-source-opportunity-for-qa-engineers.html)
+- [Back to 3D Printing: From Anycubic 4MAX to Ender 3 Pro](https://nassauwinter.github.io/back-to-3d-printing-ender-3-pro.html)
+- [Magic of Python packages](https://nassauwinter.github.io/magic-of-python-packages.html)
+- [Hacktoberfest2021](https://nassauwinter.github.io/hacktoberfest2021.html)
+- [Github actions](https://nassauwinter.github.io/github-actions.html)
+- [Posting to GitHub pages](https://nassauwinter.github.io/posting-to-github-pages.html)
+- [My blog on GitHub pages](https://nassauwinter.github.io/my-blog-on-github-pages.html)
+- [My first steps in 3d printing](https://nassauwinter.github.io/my-first-steps-in-3d-printing.html)
+
+## Статьи на русском
+- [Open Source как возможность для развития QA-инженера](https://nassauwinter.github.io/ru/open-source-opportunity-for-qa-engineers.html)
+- [Возвращение к 3D-печати: от Anycubic 4MAX к Ender 3 Pro](https://nassauwinter.github.io/ru/back-to-3d-printing-ender-3-pro.html)
