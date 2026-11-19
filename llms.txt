@@ -7,6 +7,7 @@
 - [Обо мне](https://nassauwinter.github.io/ru/pages/about-petrs.html)
 
 ## Articles in English
+- [Are We Automating the Wrong Part of Testing?](https://nassauwinter.github.io/are-we-automating-the-wrong-part-of-testing.html)
 - [Open Source as an Opportunity for QA Engineers](https://nassauwinter.github.io/open-source-opportunity-for-qa-engineers.html)
 - [Back to 3D Printing: From Anycubic 4MAX to Ender 3 Pro](https://nassauwinter.github.io/back-to-3d-printing-ender-3-pro.html)
 - [Magic of Python packages](https://nassauwinter.github.io/magic-of-python-packages.html)
@@ -17,5 +18,6 @@
 - [My first steps in 3d printing](https://nassauwinter.github.io/my-first-steps-in-3d-printing.html)
 
 ## Статьи на русском
+- [Мы автоматизируем не ту часть тестирования?](https://nassauwinter.github.io/ru/are-we-automating-the-wrong-part-of-testing.html)
 - [Open Source как возможность для развития QA-инженера](https://nassauwinter.github.io/ru/open-source-opportunity-for-qa-engineers.html)
 - [Возвращение к 3D-печати: от Anycubic 4MAX к Ender 3 Pro](https://nassauwinter.github.io/ru/back-to-3d-printing-ender-3-pro.html)
